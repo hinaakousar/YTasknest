@@ -45,5 +45,4 @@ urlpatterns = [
     path('',views.HomePage,name='home'),
     path('logout/',views.LogoutPage,name='logout'),
     path('start/', include('ticket.urls')),
-    path('project/', include('list.urls')),
 ]
