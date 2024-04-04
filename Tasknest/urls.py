@@ -45,4 +45,5 @@ urlpatterns = [
     path('',views.HomePage,name='home'),
     path('logout/',views.LogoutPage,name='logout'),
     path('start/', include('ticket.urls')),
+    path('pro/', include('list.urls')),
 ]
